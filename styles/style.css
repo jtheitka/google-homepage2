@@ -1,0 +1,73 @@
+.top{
+	height: 200px;
+}
+
+ul{
+	list-style-type: none;
+	margin: 10px;
+	padding: 0;
+}
+
+li{
+	display: inline;
+	margin: 10px 10px;
+	font-size: 13px;
+	font-family: arial;
+	opacity: 0.75;
+
+}
+
+li button{
+  	position: relative;
+  	top: -6px;
+  	background: linear-gradient(#4387fc, #4683eb);
+  	font-weight: bold;
+  	color: white;
+  	border: none;
+  	border-radius: 3px;
+  	outline: none;
+  	height: 30px;
+  	padding-left: 13px;
+	padding-right: 13px;
+}
+
+.middle{
+	/*display: block;
+	margin: 0 auto;*/
+
+}
+
+
+#google{
+	display: block;
+	width: 20%;
+	margin: 0 auto;
+	position: relative;
+	left: 35px;
+	bottom: 10px;
+}
+
+input{
+	display: block;
+	margin: 0 auto;
+	width: 500px;
+	height: 30px;
+	/*border: 1px solid grey;*/
+	position: relative;
+	top: 10px;
+	right: 10px;
+	box-shadow: -5px 5px 1px grey;
+
+}
+
+#buttons{
+	text-align: center;
+	margin: 50px;
+}
+
+.bottom{
+  	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+	background: #f2f2f2;
+}
